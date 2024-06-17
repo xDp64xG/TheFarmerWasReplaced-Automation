@@ -23,10 +23,14 @@ def print_all_unlocks():
     # Final unlock
     quick_print_unlock(Unlocks.Leaderboard)
 
+
+	quick_print(get_cost(Unlocks.Expand))
+
 def quick_print_unlock(unlock):
     quick_print(unlock, num_unlocked(unlock), get_cost(unlock))
 
-
+print_all_unlocks()
+quick_print_unlock()
 
 # All unlocked in leaderboard mode
 # quick_print("----- Should be unlocked already")

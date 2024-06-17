@@ -1,4 +1,4 @@
-from build_maze import plant_maze
+#from build_maze import plant_maze
 
 def random_solve():
     DIRECTIONS = [North, West, South, East]

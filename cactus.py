@@ -1,12 +1,14 @@
 # pyright: reportOperatorIssue=false
-from move_util import conv_idx, goto, world_range
-from set_ground import reset_ground_to
-from watering import water
+#from move_util import conv_idx, goto, world_range
+#from set_ground import reset_ground_to
+#from watering import water
 
 def plant_cacti():
     for i in world_range():
         goto(i)
         if get_entity_type() != Entities.Cactus:
+            if get_ground_type == Grounds.Turf:
+                till()
             plant(Entities.Cactus)
         water()
 

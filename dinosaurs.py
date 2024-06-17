@@ -1,4 +1,4 @@
-from move_util import goto, world_range
+#from move_util import goto, world_range
 
 
 def dinosaurs():

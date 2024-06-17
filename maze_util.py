@@ -1,5 +1,5 @@
-from fertilizing import fertilize
-from move_util import conv_idx, get_pos_idx
+#from fertilizing import fertilize
+#from move_util import conv_idx, get_pos_idx
 
 
 def plant_maze():

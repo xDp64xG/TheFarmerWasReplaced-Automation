@@ -1,6 +1,6 @@
-from fertilizing import fertilize
-from maze_util import plant_maze, travel_path_and_update, walk_maze
-from move_util import conv_idx, conv_xy, get_pos_idx
+#from fertilizing import fertilize
+#from maze_util import plant_maze, travel_path_and_update, walk_maze
+#from move_util import conv_idx, conv_xy, get_pos_idx
 
 
 def astar(graph, start, goal, heuristic):

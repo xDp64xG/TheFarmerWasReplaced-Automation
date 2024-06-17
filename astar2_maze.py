@@ -1,6 +1,6 @@
-from fertilizing import fertilize
-from maze_util import plant_maze, travel_path_and_update, walk_maze
-from move_util import conv_idx, get_pos_idx, goto, manhattan_dist_idx, world_range
+#from fertilizing import fertilize
+#from maze_util import plant_maze, travel_path_and_update, walk_maze
+#from move_util import conv_idx, get_pos_idx, goto, manhattan_dist_idx, world_range
 
 
 # g cost - dist from node to start node

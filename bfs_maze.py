@@ -1,6 +1,6 @@
-from maze_util import plant_maze, travel_path_and_update, walk_maze
-from move_util import conv_idx, get_pos_idx
-from treat_land import fertilize_old
+#from maze_util import plant_maze, travel_path_and_update, walk_maze
+#from move_util import conv_idx, get_pos_idx
+#from treat_land import fertilize_old
 
 
 def bfs(graph, start, end):
