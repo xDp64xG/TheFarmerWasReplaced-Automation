@@ -1,4 +1,4 @@
-def gather():
+def gathers():
     
     def hay():
         for i in world_range():
